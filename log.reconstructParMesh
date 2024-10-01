@@ -1,0 +1,12 @@
+
+The reconstructParMesh utility has been superseded and replaced by the more
+general reconstructPar.
+
+The reconstructPar utility now reconstructs the mesh if and when it is
+necessary; i.e., when it has changed in the processor* directories as a result
+of utility usage or dynamic mesh changes.
+
+Most parallel workflows previously included a call to reconstructParMesh first
+to reconstruct the mesh, and then called reconstructPar for the fields. This
+sort of workflow can be updated by removing the call to reconstructParMesh.
+

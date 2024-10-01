@@ -1,0 +1,11 @@
+
+The surfaceFeatureExtract utility has been superseded and replaced by the more
+general surfaceFeatures utility.
+
+surfaceFeatures reads a surfaceFeaturesDict input file with a much
+simpler, more convenient format.  Example surfaceFeaturesDict files
+can be found in the tutorial and template cases, e.g. located as
+follows:
+find $FOAM_TUTORIALS -name surfaceFeaturesDict
+find $FOAM_ETC -name surfaceFeaturesDict
+
